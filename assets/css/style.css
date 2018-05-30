@@ -1,0 +1,63 @@
+/* makes the left-right borders of #name touch the top */
+body{
+    margin:0;
+}
+/* Top bar w/ name and links to other pages */
+#firstdiv{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-bottom-style:inset;
+    border-bottom-width:4px;
+
+}
+
+#name{
+    
+    margin-top:0;
+    font-size:3em;
+    font-weight:bold;
+    margin-bottom:20px;
+    border-left-style:solid;
+    border-right-style:solid;
+    margin-bottom:0;
+    padding-right:1em;
+    padding-bottom:4px;
+    padding-left:1em;
+    background-color:#7AA252;
+    color:white;
+    font-family: 'Arimo', 'Skranji', 'Fira Sans', sans-serif;
+    
+
+}
+#aboutLeftPush{
+    margin-left:40vw;
+    margin-bottom:0;
+    border-right-style:inset;
+    padding-right:1em;
+    border-right-width:2px;
+
+}
+.pageRightSpread{
+    margin-right:1em;
+    margin-bottom:0;
+    border-right-style:inset;
+    padding-right:1em;
+    border-right-width:2px;
+
+}
+#contactLink{
+    margin-bottom:0;
+
+}
+
+/* about me section */
+#AboutSection{
+
+    height:75vh;
+    width:960px;
+    margin-left:10vw;
+    margin-top:2em;
+    background-color:orange;
+}
+
