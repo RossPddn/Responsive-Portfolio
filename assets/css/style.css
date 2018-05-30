@@ -218,22 +218,32 @@ input[type=submit] {
 
 
 /* Media Querys */
+
+/* 786px */
+@media screen and (max-width: 786px){
+.main-section{
+  width:fit-content;
+
+}
+
+
+}
 /* 980px */
 
 @media screen and (max-width: 980px){
 
-nav{
-  margin-right:40px;
-}
-#logo{
-  margin-left:30px;
-
-}
-.main-section{
-  width:70%;
-  font-size:95%;
-  margin-left:30px;
-
-}
-
-}
+  nav{
+    margin-right:40px;
+  }
+  #logo{
+    margin-left:30px;
+  
+  }
+  .main-section{
+    width:70%;
+    font-size:95%;
+    margin-left:30px;
+  
+  }
+  
+  }
